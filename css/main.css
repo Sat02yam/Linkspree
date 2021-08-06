@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
 @font-face {
   font-family: Regular;
   src: url("../Assets/Typography/Product Sans Regular.ttf");
@@ -22,7 +23,7 @@
 
 body {
   background-color: var(--bg);
-  font-family: Regular, Bold;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .slide {
@@ -83,6 +84,22 @@ body {
   display: none;
 }
 
+.slide:hover ~ .basics .info {
+  margin-left: 20px;
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+}
+
+.slide:hover ~ .basics .info h1 {
+  color: #f2f2f2;
+  letter-spacing: 1px;
+}
+
+.slide:hover ~ .basics .info h3 {
+  color: #f2f2f2;
+  letter-spacing: 4px;
+}
+
 .basics {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -106,6 +123,8 @@ body {
   z-index: 2;
   left: 3vw;
   top: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .info h1 {
@@ -113,12 +132,16 @@ body {
   font-size: 2rem;
   text-transform: uppercase;
   color: #4a4a4a;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
 }
 
 .info h3 {
   font-weight: 390;
   font-size: 16px;
   color: #4A4A4A;
+  -webkit-transition: 0.9s;
+  transition: 0.9s;
 }
 
 .slide p {

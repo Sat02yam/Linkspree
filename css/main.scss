@@ -8,6 +8,8 @@
     src: url("../Assets/Typography/Product\ Sans\ Bold.ttf");
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
 :root {
     --blue: #583EBD;
     --bg: #f1f1f1;
@@ -21,7 +23,7 @@
 
 body{
     background-color: var(--bg) ;
-    font-family: Regular, Bold;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .slide{
@@ -74,6 +76,23 @@ body{
     }
 }
 
+.slide:hover ~ .basics{
+    .info{
+        margin-left: 20px;
+        // margin-top: -5px;
+        transform: scale(1.02);
+        h1{
+            color: #f2f2f2;
+            letter-spacing: 1px;
+        }
+
+        h3{
+            color: #f2f2f2;
+            letter-spacing: 4px;
+        }
+    }
+}
+
 .basics{
     display: flex;
     align-items: center;
@@ -100,6 +119,7 @@ body{
         font-size: 2rem;
         text-transform: uppercase;
         color: #4a4a4a;
+        transition: 0.9s
     }
 
     h3{
@@ -107,7 +127,9 @@ body{
         font-size: 16px;
         // line-height: 33px;
         color: #4A4A4A;
+        transition: 0.9s
     }
+    transition: 1s;
 }
 
 
