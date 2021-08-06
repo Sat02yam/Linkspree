@@ -188,6 +188,22 @@ body {
   border-radius: 30px;
   border: 5px solid rgba(98, 72, 199, 0.47);
   margin: 10px;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.grids .ca .cara a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .grids .ca .cara a img {
@@ -211,6 +227,22 @@ body {
   border-radius: 30px;
   border: 5px solid rgba(98, 72, 199, 0.47);
   margin: 10px;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.grids .ca .carb a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .grids .ca .carb a img {
@@ -233,6 +265,22 @@ body {
           justify-content: center;
   border-radius: 30px;
   border: 5px solid rgba(98, 72, 199, 0.47);
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.grids .cb a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .grids .cb a img {
@@ -283,7 +331,23 @@ body {
           justify-content: center;
   border-radius: 30px;
   border: 5px solid rgba(98, 72, 199, 0.47);
-  margin: 10px;
+  margin: 10px 5px 10px 10px;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.grids .cc .ccra .ccraca a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .grids .cc .ccra .ccraca a img {
@@ -306,7 +370,23 @@ body {
           justify-content: center;
   border-radius: 30px;
   border: 5px solid rgba(98, 72, 199, 0.47);
-  margin: 10px;
+  margin: 10px 10px 10px 5px;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.grids .cc .ccra .ccracb a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .grids .cc .ccra .ccracb a img {
@@ -316,7 +396,7 @@ body {
 
 .grids .cc .ccrb {
   background-color: var(--blue);
-  width: 260px;
+  width: 250px;
   height: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -329,10 +409,33 @@ body {
           justify-content: center;
   border-radius: 30px;
   border: 5px solid rgba(98, 72, 199, 0.47);
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+}
+
+.grids .cc .ccrb a {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .grids .cc .ccrb a img {
   width: 2.5rem;
   height: 2.5rem;
+}
+
+.grids .cc .ccrb:hover, .grids .cc .ccra .ccraca:hover, .grids .cc .ccra .ccracb:hover, .grids .cb:hover, .grids .ca .cara:hover, .grids .ca .carb:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  -webkit-box-shadow: 0px 28px 32px -20px rgba(0, 0, 0, 0.4);
+          box-shadow: 0px 28px 32px -20px rgba(0, 0, 0, 0.4);
 }
 /*# sourceMappingURL=main.css.map */
