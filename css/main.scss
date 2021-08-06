@@ -141,3 +141,139 @@ body{
     margin-top: 40vh;
     text-align: center;
 }
+
+.grids{
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    // margin-left: 50px;
+    .ca{
+        margin-left: 0;
+        .cara{
+            background-color: var(--blue);
+            width: 120px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // margin: auto;
+            border-radius: 30px;
+            border: 5px solid rgba(98, 72, 199, 0.47);
+            margin: 10px;
+            a{
+                img{
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+            }
+        }
+        .carb{
+            background-color: var(--blue);
+            width: 120px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // margin: auto;
+            border-radius: 30px;
+            border: 5px solid rgba(98, 72, 199, 0.47);
+            margin: 10px;
+            a{
+                img{
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+            }
+        }
+    }
+
+    .cb{
+        background-color: var(--blue);
+        width: 250px;
+        height: 250px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        // margin: auto;
+        border-radius: 30px;
+        border: 5px solid rgba(98, 72, 199, 0.47);
+        // margin-left: -150px;
+        a{
+           img{
+                width: 5rem;
+                height: 5rem;
+            }
+        }
+    }
+
+    .cc{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .ccra{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .ccraca{
+                background-color: var(--blue);
+                width: 120px;
+                height: 120px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                // margin: auto;
+                border-radius: 30px;
+                border: 5px solid rgba(98, 72, 199, 0.47);
+                margin: 10px;
+                a{
+                    img{
+                        width: 2.5rem;
+                        height: 2.5rem;
+                    }
+                }
+            }
+            .ccracb{
+                background-color: var(--blue);
+                width: 120px;
+                height: 120px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                // margin: auto;
+                border-radius: 30px;
+                border: 5px solid rgba(98, 72, 199, 0.47);
+                margin: 10px;
+                a{
+                    img{
+                        width: 2.5rem;
+                        height: 2.5rem;
+                    }
+                }
+            }
+        }
+
+        .ccrb{
+            background-color: var(--blue);
+            width: 260px;
+            height: 120px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // margin: auto;
+            border-radius: 30px;
+            border: 5px solid rgba(98, 72, 199, 0.47);
+            // margin-left: -150px;
+            a{
+               img{
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+            } 
+        }
+    }
+}
+

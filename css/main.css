@@ -152,4 +152,187 @@ body {
   margin-top: 40vh;
   text-align: center;
 }
+
+.grids {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.grids .ca {
+  margin-left: 0;
+}
+
+.grids .ca .cara {
+  background-color: var(--blue);
+  width: 120px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+  border: 5px solid rgba(98, 72, 199, 0.47);
+  margin: 10px;
+}
+
+.grids .ca .cara a img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.grids .ca .carb {
+  background-color: var(--blue);
+  width: 120px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+  border: 5px solid rgba(98, 72, 199, 0.47);
+  margin: 10px;
+}
+
+.grids .ca .carb a img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.grids .cb {
+  background-color: var(--blue);
+  width: 250px;
+  height: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+  border: 5px solid rgba(98, 72, 199, 0.47);
+}
+
+.grids .cb a img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.grids .cc {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.grids .cc .ccra {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.grids .cc .ccra .ccraca {
+  background-color: var(--blue);
+  width: 120px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+  border: 5px solid rgba(98, 72, 199, 0.47);
+  margin: 10px;
+}
+
+.grids .cc .ccra .ccraca a img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.grids .cc .ccra .ccracb {
+  background-color: var(--blue);
+  width: 120px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+  border: 5px solid rgba(98, 72, 199, 0.47);
+  margin: 10px;
+}
+
+.grids .cc .ccra .ccracb a img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.grids .cc .ccrb {
+  background-color: var(--blue);
+  width: 260px;
+  height: 120px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 30px;
+  border: 5px solid rgba(98, 72, 199, 0.47);
+}
+
+.grids .cc .ccrb a img {
+  width: 2.5rem;
+  height: 2.5rem;
+}
 /*# sourceMappingURL=main.css.map */
