@@ -108,6 +108,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 .pp {
@@ -450,9 +452,76 @@ body {
   opacity: 0.3;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
+  .basics {
+    position: relative;
+    left: 0vw;
+    margin: 0;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .basics img {
+    width: 100px;
+    height: 100px;
+  }
+  .basics .info {
+    margin-left: -10px;
+  }
+  .basics .info h1 {
+    font-size: 1.5rem;
+  }
+  .basics .info h3 {
+    font-size: 0.8rem;
+  }
   .slide {
+    left: -80vw;
+  }
+  .slide p {
+    font-size: 0.8rem;
     width: 50vw;
+    opacity: 0;
+  }
+  .slide:hover p {
+    opacity: 1;
+  }
+  .slide:hover ~ .basics {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .slide:hover ~ .basics .info h1, .slide:hover ~ .basics .info h3 {
+    text-align: center;
+  }
+  .slide:hover ~ .basics .info h3 {
+    font-size: 0.5rem;
+  }
+  .grids {
+    display: none;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 60vw;
+    height: 80vh;
+  }
+  .ca {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 /*# sourceMappingURL=main.css.map */
