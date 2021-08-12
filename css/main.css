@@ -500,8 +500,12 @@ body {
   .slide:hover ~ .basics .info h1, .slide:hover ~ .basics .info h3 {
     text-align: center;
   }
+  .slide:hover ~ .basics .info h1 {
+    font-size: 1rem;
+  }
   .slide:hover ~ .basics .info h3 {
     font-size: 0.5rem;
+    width: 60vw;
   }
   .grids {
     display: none;
